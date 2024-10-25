@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Here is an explanation of how the circuit works.
 
 ## How to test
 
-Explain how to use your project
+Here is an explanation of how to test the circuit.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+There is no external hardware needed.
