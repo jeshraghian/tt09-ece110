@@ -3,7 +3,7 @@
 module lif (
     input wire [7:0]    current,
     input wire          clk,
-    input wire          reset,
+    input wire          reset_n,
     output wire         spike,
     output reg [7:0]    state
 );
@@ -12,7 +12,7 @@ module lif (
 
     always @(posedge clk) begin
         
-        if (reset) begin
+        if (!reset_n) begin
             state <= 0;
             threshold <= 127;
         end else begin
