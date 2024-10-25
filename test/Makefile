@@ -7,7 +7,7 @@ TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
 PROJECT_SOURCES = project.v
 
-ifneq ($(GATES),yes)
+ifneq ($(GATES),yes) 
 
 # RTL simulation:
 SIM_BUILD				= sim_build/rtl
