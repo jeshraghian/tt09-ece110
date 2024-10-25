@@ -24,7 +24,7 @@ module tt_um_lif (
   wire _unused = &{ena, rst_n, 1'b0};
 
   // instantiate leaky integrate and fire neuron
-  lif lif1(.current(ui_in), .clk(clk), .rst_n(rst_n), .spike(uio_out[7]), .state(uo_out))
+  lif lif1(.current(ui_in), .clk(clk), .rst_n(rst_n), .spike(uio_out[7]), .state(uo_out));
 
     
 endmodule
